@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Our first project</title>
+        <link rel="stylesheet" href="styled.css">
+    </head>
+    <body>
+    <h1>Todo list</h1>
+    <div>
+        <input id="searchInput" type="text" />
+        <button id="button">Add</button>
+        <ul id="list">
+        </ul>
+    </div>
+<!--    <div class="grid-container" id="container">-->
+<!--        <div class="grid-element special" id="1">-->
+<!--            <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element special" id="2">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Llolo</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element special" id="3">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Pepe</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="4">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Fofo</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="5">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Jojo</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="6">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="7">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="8">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="9">-->
+<!--                <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="10">-->
+<!--            <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                    <div class="logo"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="11">-->
+<!--            <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like" class="btn">L</button>-->
+<!--                    <button id="share" class="btn">S</button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="grid-element" id="12">-->
+<!--            <span class="close-icon"></span>-->
+<!--            <div class="card-wrapper">-->
+<!--                <div class="image-wrapper">-->
+<!--                    <img class="avatar" src="https://i.pinimg.com/originals/11/11/1f/11111f6ae3cae9044657f4cc91e91296.png" alt="girl">-->
+<!--                </div>-->
+<!--                <div class="info-wrapper">-->
+<!--                    <span>Name: Carla</span>-->
+<!--                    <span>Profession: JS Developer</span>-->
+<!--                    <span>Gender: Female</span>-->
+<!--                </div>-->
+<!--                <div class="btn-wrapper">-->
+<!--                    <button id="like-target" class="btn">-->
+<!--                        <img src="assets/like.svg" alt="like">-->
+<!--                    </button>-->
+<!--&lt;!&ndash;                    <button id="share" class="btn share">&ndash;&gt;-->
+<!--                    <button id="share-btn" class="btn">-->
+<!--                        <img src="assets/share.svg" class="img" alt="like">-->
+<!--                    </button>-->
+<!--                    <button id="comment" class="btn">C</button>-->
+<!--&lt;!&ndash;                    <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <input type="text">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button>Add</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </span>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    /*background-color: red;*/
+}
+
+h1 {
+    color: green;
+}
+
+.myButton {
+    color: black;
+    font-size: 20px;
+    background-color: gold;
+}
+
+.myCustomClass {
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-element {
+    height: 300px;
+    width: 200px;
+    margin: 1rem;
+    background-color: #009688;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card-wrapper {
+
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.avatar {
+    height: 124px;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin: 4px;
+}
+
+.share {
+    background: url("assets/share.svg");
+}
+
+.img {
+    width: 100%;
+}
+
+.close-icon {
+    position: absolute;
+    left: 174px;
+    top: 8px;
+    width: 15px;
+    height: 15px;
+    background: url("assets/cancel.svg");
+}
+
+.is-done {
+   text-decoration: line-through;
+}
